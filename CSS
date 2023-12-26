@@ -14,5 +14,5 @@ body {
 .flipped {
   display: none;
   font-weight: bold;
-  color: green; /* You can customize the style of the flipped word */
+  color: green; 
 }
