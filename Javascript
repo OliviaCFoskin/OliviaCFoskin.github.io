@@ -1,14 +1,14 @@
 function flipWord() {
-  var sentenceElement = document.getElementById("sentence");
+  var sentenceElement = document.getElementById("read a book");
   var flippedElement = document.createElement("span");
-  flippedElement.classList.add("flipped");
+  flippedElement.classList.add("read a book");
 
   // Replace the word with a flipped word
   var words = sentenceElement.innerHTML.split(" ");
-  words[2] = "flipped_word"; // Replace "flipped_word" with the word you want to show when flipped
+  words[2] = "take a nap"; // Replace "read a book" with the word you want to show when flipped
 
   // Add the flipped word to the span element
-  flippedElement.innerHTML = words.join(" ");
+  flippedElement.innerHTML = words.join("take a nap");
 
   // Toggle visibility
   if (sentenceElement.childNodes.length === 1) {
