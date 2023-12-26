@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sentence-container {
+  text-align: center;
+  margin: 50px;
+}
+
+#sentence {
+  font-size: 18px;
+}
+
+.flipped {
+  display: none;
+  font-weight: bold;
+  color: green; /* You can customize the style of the flipped word */
+}
