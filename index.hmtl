@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Word Flipper</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Flipper</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome Word Flipper!</h1>
+    </header>
 
-<div class="sentence-container">
-  <p id="sentence">Why dont we go read a book?</p>
-  <button id="flipButton" onclick="flipWord()">Flip Word</button>
-</div>
+    <main>
+        <p>This is a basic HTML site where I tested my ability to code. Flip the phrase with the button!</p>
+        <div class="sentence-container">
+        <p id="sentence">Why dont we go read a book?</p>
+        <button id="flipButton" onclick="flipWord()">Flip Word</button>
+   </div>
 
 <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Olivia C Foskin. All rights reserved.</p>
+    </footer>
 </body>
 </html>
