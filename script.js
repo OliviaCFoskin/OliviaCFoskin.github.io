@@ -6,7 +6,7 @@ var wordSets = [
   ["meditate"],
   ["go", "for", "a", "walk"],
   ["play", "with", "Olive"],
-  ["do", "laundry"]
+  ["do", "laundry"],
   ["take","a", "nap"]
 ];
 
