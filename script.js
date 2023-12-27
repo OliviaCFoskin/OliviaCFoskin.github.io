@@ -19,7 +19,7 @@ function flipWord() {
 
   var currentWordSet = wordSets[currentWordSetIndex];
 
-  var words = sentenceElement.innerHTML.split(" ");
+ var words = sentenceElement.textContent.split(" ");
   words.splice(0, currentWordSet.length, ...currentWordSet);
 
   flippedElement.innerHTML = words.join(" ");
