@@ -1,6 +1,6 @@
 # **Flip a Phrase**
 
-Welcome to the "Flip a Phrase" project! This is a simple web application that allows users to flip a word in a sentence by clicking a button.
+Welcome to the "Flip a Phrase" project! This is a simple web application that allows users to flip a phrase in a sentence by clicking a button.
 
 ## Usage
 
