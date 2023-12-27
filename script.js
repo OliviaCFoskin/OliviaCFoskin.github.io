@@ -1,13 +1,13 @@
 var wordSets = [
-  ["read", "a", "book"],
-  ["watch", "some", "anime"],
-  ["chill", "by", "the", "deck", "door"],
-  ["take", "a", "shower"],
+  ["read a book"],
+  ["watch some anime"],
+  ["chill by the deck door"],
+  ["take a shower"],
   ["meditate"],
-  ["go", "for", "a", "walk"],
-  ["play", "with", "Olive"],
-  ["do", "laundry"],
-  ["take","a", "nap"]
+  ["go for a walk"],
+  ["play with Olive"],
+  ["do laundry"],
+  ["take a nap"]
 ];
 
 var currentWordSetIndex = 0;
