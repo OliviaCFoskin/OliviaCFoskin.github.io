@@ -12,7 +12,7 @@ var wordSets = [
 
 var currentWordSetIndex = 0;
 
-function flipWord() {
+function flipPhrase() {
   var sentenceElement = document.getElementById("sentence");
   var currentWordSet = wordSets[currentWordSetIndex];
 
